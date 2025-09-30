@@ -3,10 +3,14 @@ export const books = [
   {
     id: 1,
     title: "Crack the Coding Interview",
+    author: "Gayle Laakmann McDowell",
     url: "https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
+    summary1: "I am not a recruiter. I am a software engineer. And as such, I know what it's like to be asked to whip up brilliant algorithms on the spot and then write flawless code on a whiteboard. I've been through this as a candidate and as an interviewer.",
+    summary2: "Cracking the Coding Interview, 6th Edition is here to help you through this process, teaching you what you need to know and enabling you to perform at your very best. I've coached and interviewed hundreds of software engineers. The result is this book.",
+    summary3: "Learn how to uncover the hints and hidden details in a question, discover how to break down a problem into manageable chunks, develop techniques to unstick yourself when stuck, learn (or re-learn) core computer science concepts, and practice on 189 interview questions and solutions.",
   },
   {
     id: 2,
