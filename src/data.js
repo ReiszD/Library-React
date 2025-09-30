@@ -1,4 +1,4 @@
-// FAKE DATA
+// DUMMY BOOK DATA
 export const books = [
   {
     id: 1,

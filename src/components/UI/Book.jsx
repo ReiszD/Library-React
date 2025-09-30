@@ -7,7 +7,7 @@ import Price from "./Price";
 const Book = ({ book }) => {
   const [img, setImg] = useState();
 
-  const mountedRef = useRef(true);
+  const mountedRef = useRef(false);
 
   useEffect(() => {
     const image = new Image();
@@ -19,10 +19,10 @@ const Book = ({ book }) => {
         }
       }, 300); 
     };
-    // return () => {
-    //   // When the component unmounts
-    //   mountedRef.current = false;
-    // }
+    return () => {
+      // When the component unmounts
+      mountedRef.current = true;
+    }
   })
 
   return (
